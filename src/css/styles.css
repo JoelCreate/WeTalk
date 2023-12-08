@@ -37,12 +37,26 @@ h1 {
     background-size: cover;  
     padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 200px;
     width: 100%;
     border-radius: 20px 20px 0px -0px;
     border-top: 2px solid silver; 
     border-right: 2px solid silver; 
-    border-left: 2px solid silver;    
+    border-left: 2px solid silver; 
+    color: #fff;   
 }
+
+#header-title, #bird-logo {
+    font-size: 3rem;
+    vertical-align: bottom;
+}
+
+
+#header-slogan {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
