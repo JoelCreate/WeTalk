@@ -54,9 +54,30 @@ h1 {
     vertical-align: bottom;
 }
 
-
 #header-slogan {
     font-size: 1rem;
     text-transform: capitalize;
 }
 
+#translate-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    border: 0px;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #d4d4d4;
+    border: 1px solid #bebebe;
+}
+
+.btn {
+    background: rgba(6, 103, 230, 0.75);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Kalnia', serif;
+}
